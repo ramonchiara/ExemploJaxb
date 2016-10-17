@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exemplo JAXB</title>
+    </head>
+    <body>
+        <h1>Carrinho</h1>
+        <p>Exemplo de carrinho vazio em <a href="webresources/carrinho/vazio.xml">XML</a> e em <a href="webresources/carrinho/vazio.json">JSON</a>.</p>
+        <p>Exemplo de carrinho cheio em <a href="webresources/carrinho/xml">XML</a> e em <a href="webresources/carrinho/json">JSON</a>.</p>
+        <h1>Calculadora</h1>
+        <h2>XML</h2>
+        <form action="webresources/calculadora/xml" method="get">
+            N1: <input type="text" name="n1"/><br/>
+            N2: <input type="text" name="n2"/><br/>
+            Op: <select name="op">
+                <option value="+">Soma</option>
+                <option value="-">Subtração</option>
+                <option value="*">Multiplicação</option>
+                <option value="/">Divisão</option>
+            </select><br/>
+            <input type="submit" value="Calcular"/>
+        </form>
+        <h2>JSON</h2>
+        <form action="webresources/calculadora/json" method="get">
+            N1: <input type="text" name="n1"/><br/>
+            N2: <input type="text" name="n2"/><br/>
+            Op: <select name="op">
+                <option value="+">Soma</option>
+                <option value="-">Subtração</option>
+                <option value="*">Multiplicação</option>
+                <option value="/">Divisão</option>
+            </select><br/>
+            <input type="submit" value="Calcular"/>
+        </form>
+    </body>
+</html>
